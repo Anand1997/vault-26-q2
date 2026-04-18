@@ -1,0 +1,10 @@
+{
+  "vimMode": true,
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "./",
+  "newFileFolderPath": "inbox",
+  "promptDelete": false
+}

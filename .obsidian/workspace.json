@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "bb8babd9ca5bd5e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b3fc05d5107c33c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "976aa7ff9a588a8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_sys/_root_sys.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_root_sys"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8614c90185184a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d28ebf4c9624b7fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36e4f6ae5aa5a84c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "343299f6a72dd19a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:class-pattern",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6d212b39a48d52c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de5595672e8cfd30",
+    "type": "split",
+    "children": [
+      {
+        "id": "8429ceed1194da76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e65c483d03c6a4e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "7a42e51c5ee53ba1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "proj-story-compiler/The story compiler.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from The story compiler"
+            }
+          },
+          {
+            "id": "fd2bf77ebb9884ab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "27cde521c790253a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c698c890538325e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "proj-story-compiler/The story compiler.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of The story compiler"
+            }
+          },
+          {
+            "id": "eaa651d946aaaa28",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "976aa7ff9a588a8a",
+  "lastOpenFiles": [
+    "_sys/system-references.md",
+    "_sys/_root_sys.md",
+    "_sys/minimal-team-check-box.png",
+    "knowleg-base/design-patterns/design-pattern-template.md",
+    "knowleg-base/solid-principles/SOLID.md",
+    "journal/2026-04-18.md",
+    "knowleg-base/algorithms-and-data-structure/_root_dsa.md",
+    "knowleg-base/design-patterns/_root_design_patterns.md",
+    "knowleg-base/solid-principles/Liskov.md",
+    "projects/story-compiler/_root_the_story_compiler.md",
+    "projects/story-compiler/dan-harmons-story-circle.jpg",
+    "inbox/create a link.md",
+    "knowleg-base/design-patterns/design-aspects-that-design-patterns-let-you-vary.png",
+    "knowleg-base/design-patterns/Structural/Adapter.md",
+    "knowleg-base/design-patterns/design-pattern-space.png",
+    "knowleg-base/design-patterns/Behavioral/Mediator.md",
+    "knowleg-base/design-patterns/Behavioral/Iterator.md",
+    "knowleg-base/design-patterns/Behavioral/Command.md",
+    "knowleg-base/design-patterns/Behavioral/Memento.md",
+    "knowleg-base/design-patterns/Behavioral/Observer.md",
+    "knowleg-base/design-patterns/Behavioral/State.md",
+    "knowleg-base/design-patterns/Behavioral/Visitor.md",
+    "inbox/Untitled.md",
+    "knowleg-base/design-patterns/Behavioral/Strategy.md",
+    "knowleg-base/design-patterns/Behavioral/Chain of Responsibility.md",
+    "knowleg-base/design-patterns/Structural/Facade.md",
+    "knowleg-base/design-patterns/Structural/Flyweight.md",
+    "knowleg-base/design-patterns/Structural/Proxy.md",
+    "knowleg-base/design-patterns/Structural/Decorator.md",
+    "knowleg-base/design-patterns/Structural/Composite.md",
+    "knowleg-base/design-patterns/design-pattern-relationships.png",
+    "knowleg-base/design-patterns/design-pattern-relationships.canvas",
+    "knowleg-base/design-patterns/Behavioral",
+    "knowleg-base/design-patterns/Structural",
+    "knowleg-base/design-patterns/Creational",
+    "inbox",
+    "knowleg-base/solid-principles",
+    "knowleg-base/algorithms-and-data-structure",
+    "knowleg-base/design-patterns",
+    "knowleg-base",
+    "_sys/templates",
+    "_sys"
+  ]
+}

@@ -23,4 +23,14 @@
 - visualize list of list as tree 
 - introduce `pair?` and count leaf.
 - Exercise 2.24 => draw box-and-point structure.
-- #todo-pitstop [[2026-04-21]]
+-  [[2026-04-21]]
+- [ ] #TODO Exercise 2.29 
+- [x] Exercise 2.30 => `square-tree`  
+- [x] Exercise 2.31 => `tree-map`
+- [x] Exercise 2.32 => `set-of-subset`
+- #todo-pitstop [[2026-04-27]]
+
+# 2.2.3 Sequence as a conventional interface  #todo-current 
+
+- [ ] Exercise 2.33
+- [ ] Exercise 2.43

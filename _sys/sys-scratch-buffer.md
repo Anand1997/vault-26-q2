@@ -1,0 +1,3 @@
+- Explore 
+	- keyboard\mouse macros.
+	- how game s\w works, ==by== Debugging [[Battlefield 1]] issue. 

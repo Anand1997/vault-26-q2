@@ -32,9 +32,12 @@
 
 # 2.2.3 Sequence as a conventional interface
 
-This section introduces #design-principle #conventional-interfaces
+This section introduces #design-principle [[Conventional-Interfaces]]
 Design a program logic around know conventional interfaces.
-`map`,`filter`,`accum` are such interfaces.
-Refer => [[Conventional-Interfaces]]
+
+Examples => [[matrix-operations]]
+
+
+
 
 

@@ -1,4 +1,16 @@
-# map
+---
+tags:
+  - "#conventional-interfaces"
+---
+| Interface | abstraction |
+| --------- | ----------- |
+| `map`     |             |
+| `accum`   |             |
+| `filter`  |             |
+| `accum-n` |             |
+| `mmap`    |             |
+# Classic Interfaces 
+## map
 ```scheme 
 (define (map proc seqs)
   (if (null? seqs)
@@ -9,8 +21,8 @@
 => (map proc (x_0 x_1 x_2 ... x_n)) 
 => ((proc x_0) (proc x_1) (proc x_2) ... (proc x_n))
 ```
-# reduce \ accumulate
-## Right fold
+## reduce \ accumulate
+### Right fold
 ```scheme
 (define (accum op init seqs)
   (if (null? seqs)
@@ -23,7 +35,7 @@
 	(proc x_1 
 		(proc x_2 init)))
 ```
-## Left fold
+### Left fold
 ```scheme
 (define (accum op init seqs) 
 	...)
@@ -36,7 +48,7 @@
 					 x_2)
 ```
 
-# filter
+## filter
 ```scheme 
 (define (filter predicate sequence)  
   (cond ((null? sequence) nil)  
@@ -46,4 +58,21 @@
         (else (filter predicate (cdr sequence)))))
 ```
 
- 
+# Extended Interfaces
+## accum-n
+```scheme
+(define (accum-n op init seqs)
+  (if (null? (car seqs))
+      nil
+      (cons (accum op init (map car seqs))
+            (accum-n op init (map cdr seqs)))))
+```
+
+## mmap
+```scheme
+(define (mmap op . lists)
+  (if (null? (car lists))
+      nil
+      (cons (apply op (map car lists))
+            (apply mmap (cons op (map cdr lists))))))
+```

@@ -30,7 +30,11 @@
 - [x] Exercise 2.32 => `set-of-subset`
 - #todo-pitstop [[2026-04-27]]
 
-# 2.2.3 Sequence as a conventional interface  #todo-current 
+# 2.2.3 Sequence as a conventional interface
 
-- [ ] Exercise 2.33
-- [ ] Exercise 2.43
+This section introduces #design-principle #conventional-interfaces
+Design a program logic around know conventional interfaces.
+`map`,`filter`,`accum` are such interfaces.
+Refer => [[Conventional-Interfaces]]
+
+

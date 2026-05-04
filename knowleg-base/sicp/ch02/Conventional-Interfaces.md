@@ -2,6 +2,8 @@
 tags:
   - "#conventional-interfaces"
 ---
+#todo add abstraction visualization for the table  
+
 | Interface | abstraction |
 | --------- | ----------- |
 | `map`     |             |
@@ -9,8 +11,9 @@ tags:
 | `filter`  |             |
 | `accum-n` |             |
 | `mmap`    |             |
+| `flatmap` |             |
 # Classic Interfaces 
-## map
+## #map 
 ```scheme 
 (define (map proc seqs)
   (if (null? seqs)
@@ -21,14 +24,14 @@ tags:
 => (map proc (x_0 x_1 x_2 ... x_n)) 
 => ((proc x_0) (proc x_1) (proc x_2) ... (proc x_n))
 ```
-## reduce \ accumulate
+## reduce \ #accum
 ### Right fold
 ```scheme
 (define (accum op init seqs)
   (if (null? seqs)
       init
       (op (car seqs)
-          (accum op init (cdr seqs)))))
+          (accum op init (cdr seqs))))) ; smaller problem
 
 => (accume proc init (x_0 x_1 x_2))
 (proc x_0
@@ -37,10 +40,15 @@ tags:
 ```
 ### Left fold
 ```scheme
-(define (accum op init seqs) 
-	...)
+(define (fold-left op initial sequence)  
+  (define (iter result rest)  
+    (if (null? rest)  
+        result  
+        (iter (op result (car rest)) ; smaller problem 
+		      (cdr rest))))  
+  (iter initial sequence))
 
-=> (accume proc init (x_0 x_1 x_2))
+=> (fold-left proc init (x_0 x_1 x_2))
 (proc 
 	(proc 
 		(proc init x_0) 
@@ -48,7 +56,7 @@ tags:
 					 x_2)
 ```
 
-## filter
+## #filter
 ```scheme 
 (define (filter predicate sequence)  
   (cond ((null? sequence) nil)  
@@ -59,7 +67,7 @@ tags:
 ```
 
 # Extended Interfaces
-## accum-n
+## #accum-n
 ```scheme
 (define (accum-n op init seqs)
   (if (null? (car seqs))
@@ -68,11 +76,16 @@ tags:
             (accum-n op init (map cdr seqs)))))
 ```
 
-## mmap
+## #mmap
 ```scheme
 (define (mmap op . lists)
   (if (null? (car lists))
       nil
       (cons (apply op (map car lists))
             (apply mmap (cons op (map cdr lists))))))
+```
+## #flatmap
+```scheme 
+(define (flatmap proc seq)  
+  (accumulate append nil (map proc seq)))
 ```

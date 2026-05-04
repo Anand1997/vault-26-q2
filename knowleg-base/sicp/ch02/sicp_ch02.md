@@ -35,9 +35,12 @@
 This section introduces #design-principle [[Conventional-Interfaces]]
 Design a program logic around know conventional interfaces.
 
-Examples => [[matrix-operations]]
+Exercise 2.37 => [[matrix-operations]]
+Exercise 2.38 => Explain recursion v/s tail recursion 
+Exercise 2.39 
+	=> Application of Fold left and right 
+	=> some operations are simpler with iteration
 
-
-
-
+## ![[Nested Mapping]] 
+## ![[The Picture lang]]
 

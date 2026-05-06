@@ -23,18 +23,18 @@
 [1.3.3 Procedures as General Methods](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-12.html#%_sec_1.3.3)  
 [1.3.4 Procedures as Returned Values](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-12.html#%_sec_1.3.4)
 
-# **[[sicp_ch02 |2 Building Abstractions with Data]]**  
+# **[[sicp_ch02|2 Building Abstractions with Data]]**  
 - [ ] [2.1 Introduction to Data Abstraction](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1)  
 	- [ ] [2.1.1 Example: Arithmetic Operations for Rational Numbers](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1.1)  
 	- [ ] [2.1.2 Abstraction Barriers](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1.2)  
 	- [ ] [2.1.3 What Is Meant by Data?](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1.3)  
 	- [ ] [2.1.4 Extended Exercise: Interval Arithmetic](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1.4)  
-- [ ] [2.2 Hierarchical Data and the Closure Property](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2)  
+- [ ] [[sicp_ch02_2|2.2 Hierarchical Data and the Closure Property]]
 	- [x] [2.2.1 Representing Sequences](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.1) 
 	- [x] [2.2.2 Hierarchical Structures](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.2) 
 	- [x] [2.2.3 Sequences as Conventional Interfaces](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.3)  
-	- [ ] [2.2.4 Example: A Picture Language](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.4) #todo-current 
-- [ ] [2.3 Symbolic Data](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-16.html#%_sec_2.3)  
+	- [ ] [2.2.4 Example: A Picture Language](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.4) #skip
+- [ ] [[sicp_ch02_3|2.3 Symbolic Data]]
 	- [ ] [2.3.1 Quotation](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-16.html#%_sec_2.3.1)  
 	- [ ] [2.3.2 Example: Symbolic Differentiation](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-16.html#%_sec_2.3.2)  
 	- [ ] [2.3.3 Example: Representing Sets](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-16.html#%_sec_2.3.3)  

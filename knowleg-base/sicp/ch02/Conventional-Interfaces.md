@@ -89,3 +89,7 @@ tags:
 (define (flatmap proc seq)  
   (accumulate append nil (map proc seq)))
 ```
+> [!note] (proc x) => list ; it need to be closed under list operation append
+
+
+

@@ -8,4 +8,17 @@
                  (enumerate-interval 1 n)))
 ```
 This is one of the extended [[Conventional-Interfaces]]
-#todo-pitstop continue with the exercise 
+
+## Exercise 2.40 
+-> pair with no duplicate 
+
+## Exercise 2.41
+
+| Concept    | Tool    |
+| ---------- | ------- |
+| loops      | flatmap |
+| inner loop | map     |
+| condition  | filter  |
+## Exercise 2.42: 
+![[N-Queens]]
+ #todo-pitstop 

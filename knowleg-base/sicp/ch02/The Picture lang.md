@@ -11,3 +11,5 @@
                  (rotate180 diagonal-shading))))
 (paint einstein)
 ```
+#TODO skipped for now
+- now Very interesting 

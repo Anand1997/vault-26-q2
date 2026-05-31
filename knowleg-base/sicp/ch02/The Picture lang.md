@@ -12,4 +12,4 @@
 (paint einstein)
 ```
 #TODO skipped for now
-- now Very interesting 
+- not Very interesting 

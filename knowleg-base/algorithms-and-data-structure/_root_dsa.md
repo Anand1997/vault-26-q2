@@ -1,3 +1,8 @@
-#todo-dsa - create a list of practice topics and problems 
+---
+aliases:
+  - DSA
+---
+# [[Back Tracking]]
+# RESOURCES
 
-follow https://cses.fi/book/book.pdf
+[^1]: https://cses.fi/book/book.pdf

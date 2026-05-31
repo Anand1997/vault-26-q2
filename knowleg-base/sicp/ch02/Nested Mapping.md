@@ -22,3 +22,8 @@ This is one of the extended [[Conventional-Interfaces]]
 ## Exercise 2.42: 
 ![[N-Queens]]
  #todo-pitstop 
+
+```scheme
+(((3 4) (1 3) (4 2) (2 1))
+ ((2 4) (4 3) (1 2) (3 1)))
+```

@@ -29,7 +29,7 @@
 	- [ ] [2.1.2 Abstraction Barriers](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1.2)  
 	- [ ] [2.1.3 What Is Meant by Data?](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1.3)  
 	- [ ] [2.1.4 Extended Exercise: Interval Arithmetic](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-14.html#%_sec_2.1.4)  
-- [ ] [[sicp_ch02_2|2.2 Hierarchical Data and the Closure Property]]
+- [x] [[sicp_ch02_2|2.2 Hierarchical Data and the Closure Property]]
 	- [x] [2.2.1 Representing Sequences](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.1) 
 	- [x] [2.2.2 Hierarchical Structures](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.2) 
 	- [x] [2.2.3 Sequences as Conventional Interfaces](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-15.html#%_sec_2.2.3)  

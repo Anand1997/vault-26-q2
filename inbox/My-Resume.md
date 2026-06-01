@@ -43,3 +43,6 @@ Software Developer with 4.5 years of experience in developing firmware and optim
 ## Projects
 * **Master’s Project:** Serial communication-based Debugger (similar to JTAG) for Tiva4C ARM Cortex M microcontroller.
 * **Bachelor’s Project:** Software Emulator (Python) and Verilog HDL for a simple RISC Instruction Set Architecture (ISA).
+
+
+![[Anand_Narawade_Resume_2026.pdf]]
